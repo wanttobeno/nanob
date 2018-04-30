@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client.vcxproj", "{8AE4C03A-9699-439A-B7F6-71EB967B780B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server.vcxproj", "{D4A7A4B7-6FA8-4DD8-8139-A7591FB8FEB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nanob", "nanob.vcxproj", "{891BC3A7-1C59-439C-80CE-F3DE5FC3C889}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AE4C03A-9699-439A-B7F6-71EB967B780B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8AE4C03A-9699-439A-B7F6-71EB967B780B}.Debug|Win32.Build.0 = Debug|Win32
+		{8AE4C03A-9699-439A-B7F6-71EB967B780B}.Release|Win32.ActiveCfg = Release|Win32
+		{8AE4C03A-9699-439A-B7F6-71EB967B780B}.Release|Win32.Build.0 = Release|Win32
+		{D4A7A4B7-6FA8-4DD8-8139-A7591FB8FEB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4A7A4B7-6FA8-4DD8-8139-A7591FB8FEB8}.Debug|Win32.Build.0 = Debug|Win32
+		{D4A7A4B7-6FA8-4DD8-8139-A7591FB8FEB8}.Release|Win32.ActiveCfg = Release|Win32
+		{D4A7A4B7-6FA8-4DD8-8139-A7591FB8FEB8}.Release|Win32.Build.0 = Release|Win32
+		{891BC3A7-1C59-439C-80CE-F3DE5FC3C889}.Debug|Win32.ActiveCfg = Debug|Win32
+		{891BC3A7-1C59-439C-80CE-F3DE5FC3C889}.Debug|Win32.Build.0 = Debug|Win32
+		{891BC3A7-1C59-439C-80CE-F3DE5FC3C889}.Release|Win32.ActiveCfg = Release|Win32
+		{891BC3A7-1C59-439C-80CE-F3DE5FC3C889}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

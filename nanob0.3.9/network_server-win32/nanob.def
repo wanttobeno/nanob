@@ -1,0 +1,7 @@
+LIBRARY nanob
+EXPORTS
+pb_encode_delimited
+pb_encode_tag_for_field
+pb_encode_submessage
+pb_decode
+pb_decode_delimited
