@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="nanob">
+      <UniqueIdentifier>{22bd7ced-9a93-401d-bc55-ac098487af37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mytest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest.pb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="double_conversion.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pb_common.c">
+      <Filter>nanob</Filter>
+    </ClCompile>
+    <ClCompile Include="pb_decode.c">
+      <Filter>nanob</Filter>
+    </ClCompile>
+    <ClCompile Include="pb_encode.c">
+      <Filter>nanob</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mytest.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="double_conversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pb.h">
+      <Filter>nanob</Filter>
+    </ClInclude>
+    <ClInclude Include="pb_common.h">
+      <Filter>nanob</Filter>
+    </ClInclude>
+    <ClInclude Include="pb_decode.h">
+      <Filter>nanob</Filter>
+    </ClInclude>
+    <ClInclude Include="pb_encode.h">
+      <Filter>nanob</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

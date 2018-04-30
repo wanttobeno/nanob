@@ -1,0 +1,20 @@
+syntax = "proto2";
+
+message  AllValue{
+  required  float myfloat=1;
+  required  int32 myint32 =2;
+  required  int64 myint64=3;
+  required  uint32 myuint32=4;
+  required  uint64 myuint64=5;
+  required  sint32 mysint32=6;
+  required  sint64 mysin64=7;
+  required  fixed32 myfixed32=8;
+  required  fixed64 myfixed64=9;
+  required  sfixed32 mysfixed32=10;
+  required  sfixed64 mysfinxed64=11;
+  required  bool mybool=12;
+  required  string mystring =13;
+  required  bytes mybytes =14;
+  optional uint32 myAge=15;
+  repeated uint32 myList=16;
+}
